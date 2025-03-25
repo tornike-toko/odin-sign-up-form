@@ -46,3 +46,78 @@ body{
     font-family: "norse-bold";
     color: white;
 }
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    background: #f7f7ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right>*{
+    padding-left: 50px;
+}
+.right .desc, .right .secondary-text{
+    font-size: 26px;
+    font-weight: 600;
+    width: 80%;
+    margin-bottom: 30px
+}
+.right .secondary-text{
+    margin-bottom: 60px;
+}
+.right form{
+    display: inline;
+    background: white;
+    box-shadow: 0px 10px 10px #a7a7a7 ;
+}
+.right form h1{
+    font-size: 2rem;
+    margin-block: 20px;
+}
+.inp-wrapper{
+    display: flex;
+    gap: 100px;
+}
+.f-left div,.f-right div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+label{
+    font-size: 1rem;
+}
+.inp-wrapper input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid #6e6e6e 1px;
+    font-size: 1.5rem;
+    padding: 0 15px;
+}
+input:invalid{
+    border: red;
+}
+input:focus{
+    outline: none;
+    border: solid blue 2px;
+}
+
+
+.bottm-text button{
+    width: 250px;
+    height: 50px;
+    margin-block: 40px;
+    background: #596D48;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+.bottm-text p a{
+    text-decoration: none;
+    color: #596D48;
+}
